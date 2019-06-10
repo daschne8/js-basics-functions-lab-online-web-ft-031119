@@ -1,1 +1,3 @@
-// Code your solution in this file!
+distanceFromHqInBlocks(distance){
+  return Math.abs(42 - distance)
+}
