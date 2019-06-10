@@ -15,7 +15,7 @@ function calculatesFarePrice(starting,ending){
     price = 0
   }
   else if (travelled <= 2000) {
-    price = travelled * 0.02
+    price = (travelled-400) * 0.02
   }
   else if (travelled <= 2500) {
     price = 25
