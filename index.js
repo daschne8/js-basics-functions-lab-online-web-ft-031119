@@ -14,10 +14,10 @@ function calculatesFarePrice(starting,ending){
   if (travelled <= 400) {
     response = 0
   }
-  else if (400 < travelled < 2000) {
+  else if (400 < travelled <= 2000) {
     response = travelled * .02
   }
-  else if (2000 <= travelled <= 2500) {
+  else if (2000 < travelled <= 2500) {
     response = 25
   }
   else if (travelled > 2500) {
