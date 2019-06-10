@@ -1,3 +1,3 @@
-distanceFromHqInBlocks(distance){
-  return Math.abs(42 - distance)
+distanceFromHqInBlocks(block){
+  return Math.abs(block - 42)
 }
